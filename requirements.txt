@@ -14,8 +14,6 @@ langchain==0.3.26
 flask==3.1.1
 langchain-pinecone==0.2.8
 langchain-openai==0.3.24
-<<<<<<< HEAD
-=======
+
 langchain-groq==0.3.24
->>>>>>> fa79327 (implement RAG Pipeline done)
 -e .
