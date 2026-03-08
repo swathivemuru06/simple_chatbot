@@ -69,7 +69,7 @@ system_prompt = """
 You are an assistant for question-answering tasks.
 Use the following pieces of retrieved context to answer the question.
 If you don't know the answer, say that you don't know.
-Use three sentences maximum and keep the answer concise.
+Use 10 sentences maximum and keep the answer concise and answer in points
 
 {context}
 """
@@ -90,5 +90,5 @@ rag_chain = (
     | prompt
     | llm
 )
-response=rag_chain.invoke("what is rag?")
+response=rag_chain.invoke("can you give us  brief summary about chapter 1?")
 print(response.content)
