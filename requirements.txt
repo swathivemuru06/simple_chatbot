@@ -1,19 +1,23 @@
-langchain-community==0.3.36
+langchain==1.2.15
+langchain-community==0.3.31
+langchain-core==1.2.26
+
 langchain-text-splitters
 langchain-huggingface
-chromadb
 langchain-chroma
 langchain-groq
-sentence-==4.1.0
-unstructured
-nltk
-unstructured[pdf]
-pypdf==5.6.1
-python-dotenv==1.1.0
-langchain==0.3.26
-flask==3.1.1
-langchain-pinecone==0.2.8
-langchain-openai==0.3.24
+langchain-openai
 
-langchain-groq==0.3.24
+chromadb
+sentence-transformers
+unstructured[pdf]
+nltk
+pypdf
+python-dotenv
+
+flask
+streamlit
+
+langchain-pinecone
+
 -e .
