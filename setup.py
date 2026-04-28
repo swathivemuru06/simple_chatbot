@@ -6,5 +6,5 @@ setup(
     author="Swathi Vemuru",
     author_email="swathi.vemuru.06@gmail.com",
     packages=find_packages(),
-    install_requires=[]
+    install_requires=[] 
 )
