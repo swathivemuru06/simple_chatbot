@@ -6,11 +6,11 @@ from langchain_core.documents import Document
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 import os
-from .prompt import prompt
+from prompt import prompt
 # import prompt
 # print(dir(prompt))
 from pinecone import Pinecone
-from langchain_pinecone import PineconeVectorStore
+from langchain_pinecone import Pinecone as PineconeVectorStore
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_groq import ChatGroq

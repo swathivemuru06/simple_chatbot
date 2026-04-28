@@ -1,7 +1,7 @@
 # simple_chatbot
 RAG Chatbot Using LangChain, HuggingFace, and Pinecone
 
-This project is a Retrieval-Augmented Generation (RAG) chatbot that answers questions based on custom documents such as PDFs and text files. It uses the LangChain ecosystem along with HuggingFace embeddings, Pinecone vector database, and large language models like Groq or OpenAI.
+This project is a Retrieval-Augmented Generation (RAG) chatbot that answers questions based on custom documents such as PDFs and text files. It uses the LangChain ecosystem along with HuggingFace embeddings, Pinecone vector database, and large language models like Groq.
 
 The main goal of this project is to combine document retrieval with language generation so that responses are accurate and based on provided data instead of general knowledge.
 
@@ -25,9 +25,8 @@ The project is organized as follows:
 simple_chatbot/
 
 - src/
-  - helper.py (core RAG logic)
-  - prompt.py (prompt templates)
-  - __init__.py  
+  - helper.py (core RAG logic) or I can say complete logic
+  - prompt.py (prompt templates) 
 
 - research/
   - trials.ipynb (experiments)
@@ -41,13 +40,15 @@ simple_chatbot/
 
 Setup Instructions
 Step 1: Clone the repository
-git clone <your-repo-url>  
-cd simple_chatbot  
-Step 2: Install dependencies 
+git clone : https://github.com/swathivemuru06/simple_chatbot
+
+STEP 2:  create a conda environment  after cloning the repo  
+
+Step 3: Install dependencies 
 pip install -r requirements.txt  
 
 Step 4: Create a .env file
-Add your API keys in a .env file in the root directory:
+Add your API keys in a .env file in the root directory
 
 
 GROQ_API_KEY=your_groq_api_key  

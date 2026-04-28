@@ -3,7 +3,8 @@ from dotenv import load_dotenv
 from src.helper import load_pdf_files,filter_to_minimal_docs,text_splitter,download_embeddings
 import os
 from pinecone import Pinecone
-from langchain_pinecone import PineconeVectorStore
+
+from langchain_pinecone import Pinecone as PineconeVectorStore
 from pinecone import ServerlessSpec
 load_dotenv()
 load_dotenv(".env")
